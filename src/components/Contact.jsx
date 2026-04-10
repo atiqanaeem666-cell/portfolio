@@ -28,7 +28,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 bg-black">
-      <div className="max-w-3xl mx-auto px-6 sm:px-8 bg-[#ff4d6d] p-10 rounded-3xl shadow-lg border border-transparent">
+      <div className="reveal-card max-w-3xl mx-auto px-6 sm:px-8 bg-[#ff4d6d] p-10 rounded-3xl shadow-lg border border-transparent">
         <h2 className="text-3xl font-bold mb-6 text-center text-white">Get in Touch</h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <input
