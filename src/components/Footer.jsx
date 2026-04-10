@@ -19,7 +19,7 @@ const socialLinks = [
     Icon: FaXTwitter,
   },
   {
-    href: "mailto:atiqanaeem666@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=atiqanaeem666@gmail.com",
     label: "Email",
     Icon: FaEnvelope,
   },
@@ -62,7 +62,6 @@ function Footer() {
 
 const styles = {
   footer: {
-    marginTop: "3rem",
     padding: "1rem 0",
     background: "#000",
     borderTop: "1px solid #111827",
